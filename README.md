@@ -1,6 +1,6 @@
 # TODO APP BASED ON ARWAVE NETWORK
 
-TODO-AWEAVE is a todo app that running using arweave network , users can login using thier arweave wallet key, then store thier todo list permantly .
+TODO-ARWEAVE is a todo app that running using arweave network , users can login using thier arweave wallet key, then store thier todo list permantly .
 
 ## Available Scripts
 In the project directory, you can run:
