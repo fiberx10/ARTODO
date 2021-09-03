@@ -12,7 +12,7 @@ const arweave = Arweave.init({
   protocol: "http",
 });
 const ardb = new ArDB.default(arweave);
-  //******************* chnage between sign and signup */
+  //******************* switch between sign and signup */
   const tosgnup = (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault;
     $(".sign_up_li").addClass("active");
@@ -27,19 +27,6 @@ const ardb = new ArDB.default(arweave);
     $(".sign_in").removeClass("disp_none");
     $(".sign_up").addClass("disp_none");
   };
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -168,15 +155,6 @@ const Todo: FC = () => {
 
 
 
-
-
-
-
-
-
-
-
-
 function createwallet(e: React.MouseEvent<HTMLAnchorElement>) {
   e.preventDefault();
  
@@ -188,9 +166,6 @@ function createwallet(e: React.MouseEvent<HTMLAnchorElement>) {
   }
   create();
 }
-
-
-
 
 
 const download = (content: BlobPart, name: string, contentType: string) => {
